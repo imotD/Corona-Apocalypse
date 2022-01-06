@@ -37,5 +37,7 @@ node_modules/
 dist/
 npm-debug.log
 yarn-error.log
+package-lock.json
+*.css.map
 
 # End of https://www.toptal.com/developers/gitignore/api/linux,visualstudiocode,vuejs
