@@ -40,4 +40,16 @@ yarn-error.log
 package-lock.json
 *.css.map
 
+# dependencies
+node_modules
+
+# logs
+npm-debug.log
+
+# Nuxt build
+.nuxt
+
+# Nuxt generate
+dist
+
 # End of https://www.toptal.com/developers/gitignore/api/linux,visualstudiocode,vuejs
