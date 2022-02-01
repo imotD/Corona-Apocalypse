@@ -1,15 +1,9 @@
 <template>
-  <div class="Hero">
-    <Nav />
-    <h1 class="Hero--tagline text-uppercase">{{ title }}</h1>
-    <div class="Hero--img">
-      <v-img
-        :aspect-ratio="2.1"
-        contain
-        :src="require(`../assets/img/boys.png`)"
-      ></v-img>
-    </div>
-    <LineMenu />
+  <div>
+    <Header />
+    <!-- <div class="black"></div> -->
+    <!-- <Paralax /> -->
+    <!-- <div class="state"></div> -->
   </div>
 </template>
 
@@ -24,23 +18,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.Hero {
-  position: relative;
-  background-color: black;
+<style scoped>
+.state {
   height: 100vh;
-  &--tagline {
-    color: white;
-    text-align: center;
-    letter-spacing: 35px;
-    line-height: 140px;
-    font-size: 8rem;
-  }
-  &--img {
-    left: 0;
-    right: 0;
-    position: absolute;
-    bottom: 0;
-  }
+  background-color: #181201;
+  /* background-color: red; */
+  position: relative;
 }
 </style>

@@ -34,7 +34,7 @@ export default {
     position: absolute;
     transform: rotate(270deg);
     color: white;
-    top: -4rem;
+    top: -3.5rem;
     left: -2rem;
   }
 }
